@@ -50,5 +50,5 @@ def conduct_quiz():
 
     print(f"Quiz Over! Your final score is {score} out of {total_questions}.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     conduct_quiz()
